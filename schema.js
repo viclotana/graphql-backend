@@ -8,6 +8,6 @@ const {
 } = require('graphql');
 
 
-Module.exports = new GraphQLSchema({
-
+module.exports = new GraphQLSchema({
+  
 });
