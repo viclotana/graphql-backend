@@ -9,7 +9,8 @@ const {
 
 //root query
 const RootQuery = new GraphQLObjectType({
-    name:
+    name:'RootQueryType',
+    customer: CuustomerType
 });
 
 module.exports = new GraphQLSchema({
