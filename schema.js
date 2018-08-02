@@ -9,7 +9,13 @@ const {
 
 
 // Customer type
-const CustomerType
+const CustomerType = new GraphQLObjectType({
+    name:'Customer',
+    fields:() => ({
+        id: {type:GraphQLString},
+        name:{type:GraphQLString},
+    })
+});
 //root query
 const RootQuery = new GraphQLObjectType({
     name:'RootQueryType',
