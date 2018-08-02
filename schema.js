@@ -34,7 +34,7 @@ const RootQuery = new GraphQLObjectType({
                 id:{type:GraphQLString}
             },
             resolve(parentValue, args){
-                for(let i=o;i<customers.length;i++){
+                for(let i=0;i<customers.length;i++){
                     if(customers[i].id==args.id){
                         return customers[i];
                     }
