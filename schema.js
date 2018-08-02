@@ -1,7 +1,7 @@
 const {
     GraphQLObjectType,
     GraphQLString,
-    GraphQLLint,
+    GraphQLInt,
     GraphQLSchema,
     GraphQLList,
     GraphQLNonNull
@@ -14,12 +14,16 @@ const CustomerType = new GraphQLObjectType({
     fields:() => ({
         id: {type:GraphQLString},
         name:{type:GraphQLString},
+        email:{type:GraphQLString},
+        age:{type:GraphQLInt},
     })
 });
 //root query
 const RootQuery = new GraphQLObjectType({
     name:'RootQueryType',
-    customer: CustomerType
+    customer: {
+        type:CustomerType
+    }
 });
 
 module.exports = new GraphQLSchema({
