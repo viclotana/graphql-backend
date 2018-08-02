@@ -7,6 +7,10 @@ const {
     GraphQLNonNull
 } = require('graphql');
 
+// hardcoded data
+const customers = [
+    {id:'1',}
+]
 
 // Customer type
 const CustomerType = new GraphQLObjectType({
