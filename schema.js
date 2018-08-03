@@ -55,7 +55,7 @@ const RootQuery = new GraphQLObjectType({
     }
 });
 
-const
+const mutation
 
 module.exports = new GraphQLSchema({
   query:RootQuery
