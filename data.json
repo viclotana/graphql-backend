@@ -1,0 +1,46 @@
+{
+    "customers":[
+        {
+            "id":"1",
+            "name":"Nwose Lotanna",
+            "email":"nlotanna@gmail.com",
+            "age":24
+        },
+        {
+            "id":"2",
+            "name":"Nwose Lotanna",
+            "email":"nlotanna@gmail.com",
+            "age":24
+        },
+        {
+            "id":"1",
+            "name":"Nwose Lotanna",
+            "email":"nlotanna@gmail.com",
+            "age":24
+        },
+        {
+            "id":"1",
+            "name":"Nwose Lotanna",
+            "email":"nlotanna@gmail.com",
+            "age":24
+        },
+        {
+            "id":"1",
+            "name":"Nwose Lotanna",
+            "email":"nlotanna@gmail.com",
+            "age":24
+        },
+        {
+            "id":"1",
+            "name":"Nwose Lotanna",
+            "email":"nlotanna@gmail.com",
+            "age":24
+        },
+        {
+            "id":"1",
+            "name":"Nwose Lotanna",
+            "email":"nlotanna@gmail.com",
+            "age":24
+        },
+    ]
+}
