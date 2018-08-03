@@ -8,11 +8,11 @@ const {
 } = require('graphql');
 
 // hardcoded data
-const customers = [
-    {id:'1',name:'Nwose Lotanna', email:'lnwose@gmail.com', age:24},
-    {id:'2',name:'Jeff Bezos', email:'jeffb@gmail.com', age:54},
-    {id:'3',name:'Ebube Gates', email:'egatese@gmail.com', age:64}
-]
+// const customers = [
+//     {id:'1',name:'Nwose Lotanna', email:'lnwose@gmail.com', age:24},
+//     {id:'2',name:'Jeff Bezos', email:'jeffb@gmail.com', age:54},
+//     {id:'3',name:'Ebube Gates', email:'egatese@gmail.com', age:64}
+// ]
 
 // Customer type
 const CustomerType = new GraphQLObjectType({
@@ -34,11 +34,11 @@ const RootQuery = new GraphQLObjectType({
                 id:{type:GraphQLString}
             },
             resolve(parentValue, args){
-                for(let i=0;i<customers.length;i++){
-                    if(customers[i].id==args.id){
-                        return customers[i];
-                    }
-                }
+                // for(let i=0;i<customers.length;i++){
+                //     if(customers[i].id==args.id){
+                //         return customers[i];
+                //     }
+                // }
             }
         },
         customers:{
