@@ -93,11 +93,7 @@ const mutation = new GraphQLObjectType({
                 age: {type:GraphQLInt},
             },
             resolve(parentValue, args){
-                return axios.post('http://localhost:3000/customers',{
-                    name:args.name,
-                    email:args.email,
-                    age:args.age
-                })
+                return axios.patch('http://localhost:3000/customers/'+args.id,args)
                 .then(res => res.data);
             }
         }
