@@ -1,46 +1,52 @@
 {
-    "customers":[
-        {
-            "id":"1",
-            "name":"Nwose Lotanna",
-            "email":"nlotanna@gmail.com",
-            "age":24
-        },
-        {
-            "id":"2",
-            "name":"John Snow",
-            "email":"snow@gmail.com",
-            "age":29
-        },
-        {
-            "id":"3",
-            "name":"Edwards Tse",
-            "email":"tsea@gmail.com",
-            "age":42
-        },
-        {
-            "id":"4",
-            "name":"Dolce Gabanna",
-            "email":"dolce@gmail.com",
-            "age":74
-        },
-        {
-            "id":"5",
-            "name":"Monkey Banana",
-            "email":"baban@gmail.com",
-            "age":33
-        },
-        {
-            "id":"6",
-            "name":"Emma Stone",
-            "email":"stone@gmail.com",
-            "age":20
-        },
-        {
-            "id":"7",
-            "name":"Ayo Balogun",
-            "email":"ayo@gmail.com",
-            "age":28
-        }
-    ]
+  "customers": [
+    {
+      "id": "1",
+      "name": "Nwose Lotanna",
+      "email": "nlotanna@gmail.com",
+      "age": 24
+    },
+    {
+      "id": "2",
+      "name": "John Snow",
+      "email": "snow@gmail.com",
+      "age": 29
+    },
+    {
+      "id": "3",
+      "name": "Edwards Tse",
+      "email": "tsea@gmail.com",
+      "age": 42
+    },
+    {
+      "id": "4",
+      "name": "Dolce Gabanna",
+      "email": "dolce@gmail.com",
+      "age": 74
+    },
+    {
+      "id": "5",
+      "name": "Monkey Banana",
+      "email": "baban@gmail.com",
+      "age": 33
+    },
+    {
+      "id": "6",
+      "name": "Emma Stone",
+      "email": "stone@gmail.com",
+      "age": 20
+    },
+    {
+      "id": "7",
+      "name": "Ayo Balogun",
+      "email": "ayo@gmail.com",
+      "age": 28
+    },
+    {
+      "name": "saint obi",
+      "email": "obi@gmail.com",
+      "age": 43,
+      "id": "u36dgNZ"
+    }
+  ]
 }
