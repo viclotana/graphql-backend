@@ -58,7 +58,14 @@ const RootQuery = new GraphQLObjectType({
 const mutation = new GraphQLObjectType({
     name:'Mutation',
     fields:{
-        addCustomer:
+        addCustomer:{
+            type:CustomerType,
+            args: {
+                name: {type: new GraphQLNonNull(GraphQLString)},
+                email: {type: new GraphQLNonNull(GraphQLString)},
+                agee: {type: new GraphQLNonNull(GraphQLInt)},
+            }
+        }
     }
 })
 
